@@ -18,4 +18,9 @@ Also, change the --input tag in the file `runner_optiflow.sh` with the name of t
 
 Now we are ready. Just launch `./runner_optiflow.sh`
 
+After having computed the optical flow for each couple of successive frames, be sure to change in `rename.sh` the correct number of frames to be renamed,  launch `rename.sh`.
+
+Now execute `ffmpeg -f image2 -framerate 30 -i flow%d.png -loop -1 flow.gif` to finally generate the GIF visualazing the optical flow.
+
+
 This code is based on the original paper of RAFT: https://arxiv.org/abs/2003.12039
