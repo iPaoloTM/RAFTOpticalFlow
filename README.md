@@ -25,5 +25,8 @@ After having computed the optical flow for each couple of successive frames, be 
 
 Now execute `ffmpeg -f image2 -framerate 30 -i flow%d.png -loop -1 flow.gif` to finally generate the GIF visualazing the optical flow.
 
+This is an example GIF
+
+![](https://github.com/RAFTOpticalFlow/flow.gif)
 
 This code is based on the original paper of RAFT: https://arxiv.org/abs/2003.12039
