@@ -37,6 +37,6 @@ to finally generate the GIF visualazing the optical flow.
 
 This is an example GIF
 
-![flow](https://user-images.githubusercontent.com/43711362/230737431-01f3fdd6-e835-4d0d-8285-ce0e825e67da.gif)
+![flow](https://user-images.githubusercontent.com/43711362/230737684-efcc1a2b-24d0-4dbc-9d20-2df65cc3e780.gif)
 
 This code is based on the original paper of RAFT: https://arxiv.org/abs/2003.12039
