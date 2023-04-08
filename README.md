@@ -8,13 +8,14 @@ To start, be sure to create a folder __results__ in your current working directo
 Then, create a folder with the name of your video, in which to save the results of the computed optical flow. In this folder there must be the video named as __final.mp4__.
 
 It should look like this
-`current_directory
+```
+current_directory
 ├── results/
 │   └─── video_name/
 │         └─── final.mp4
 ├── runner_optiflow.sh
 └── optiflow.py
-`
+```
 
 After that, be sure to know how many frames your video is long, then change that value in the file `runner_optiflow.sh`.
 Also, change the --input tag in the file `runner_optiflow.sh` with the name of the video you will work on.
