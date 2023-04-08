@@ -1,6 +1,6 @@
 # RAFT OpticalFlow
 
-Visualazing with a GIF optical flow.
+Visualizing with a GIF optical flow.
 
 The optical flow is computed with RAFT architecture (also works with no GPU, just slower)
 
