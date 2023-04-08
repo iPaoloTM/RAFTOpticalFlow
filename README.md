@@ -27,6 +27,6 @@ Now execute `ffmpeg -f image2 -framerate 30 -i flow%d.png -loop -1 flow.gif` to 
 
 This is an example GIF
 
-![](https://github.com/RAFTOpticalFlow/flow.gif)
+![flow](https://user-images.githubusercontent.com/43711362/230737431-01f3fdd6-e835-4d0d-8285-ce0e825e67da.gif)
 
 This code is based on the original paper of RAFT: https://arxiv.org/abs/2003.12039
