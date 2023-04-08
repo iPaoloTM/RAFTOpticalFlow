@@ -12,6 +12,7 @@ It should look like this
 current_directory
 ├── results/
 │   └─── video_name/
+│         ├─── rename.sh
 │         └─── final.mp4
 ├── runner_optiflow.sh
 └── optiflow.py
@@ -20,11 +21,19 @@ current_directory
 After that, be sure to know how many frames your video is long, then change that value in the file `runner_optiflow.sh`.
 Also, change the --input tag in the file `runner_optiflow.sh` with the name of the video you will work on.
 
-Now we are ready. Just launch `./runner_optiflow.sh`
+Now we are ready. Just launch
+```
+./runner_optiflow.sh
+```
 
-After having computed the optical flow for each couple of successive frames, be sure to change in `rename.sh` the correct number of frames to be renamed,  launch `rename.sh`.
+After having computed the optical flow for each couple of successive frames, be sure to change in `rename.sh` the correct number of frames to be renamed,  launch 
+```
+./runner_optiflow.sh
+```
 
-Now execute `ffmpeg -f image2 -framerate 30 -i flow%d.png -loop -1 flow.gif` to finally generate the GIF visualazing the optical flow.
+Now execute 
+```ffmpeg -f image2 -framerate 30 -i flow%d.png -loop -1 flow.gif``` 
+to finally generate the GIF visualazing the optical flow.
 
 This is an example GIF
 
