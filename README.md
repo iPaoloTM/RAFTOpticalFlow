@@ -17,3 +17,5 @@ After that, be sure to know how many frames your video is long, then change that
 Also, change the --input tag in the file `runner_optiflow.sh` with the name of the video you will work on.
 
 Now we are ready. Just launch `./runner_optiflow.sh`
+
+This code is based on the original paper of RAFT: https://arxiv.org/abs/2003.12039
